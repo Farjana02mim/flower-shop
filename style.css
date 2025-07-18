@@ -1,0 +1,61 @@
+
+/* common style */
+.btn-primary{
+    background-color: #E55473;
+    color: white;
+    height: 64px;
+    width: 179px;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: none;
+}
+
+
+/* banner style */
+.banner{
+    background-color: rgba(229, 84, 115, 0.1);
+    /* height: 850px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    padding: 100px 90px 147px 140px;
+}
+.banner-img{
+    height: 800px;
+    width: 635px;
+    
+}
+
+.banner-title{
+    /* height: 288px;
+    width: 708px; */
+    font-size: 5rem;
+    font-weight: 900;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.25rem;
+
+}
+
+
+
+/* responsive media query */
+
+/* mobile version */
+
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+    }
+}
+
+/* medium size device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .banner{
+        flex-direction: column;
+    }
+}
